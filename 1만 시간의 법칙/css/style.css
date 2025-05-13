@@ -85,12 +85,18 @@ main {
 }
 
 .quote-wrap::before{
-    content: url(../images/double-quotes-before.svg);
+    content: "";
+    width: 3.6rem;
+    height: 3.2rem;
+    background-image: url(../images/double-quotes-before.svg);
     margin-right: 2rem;
 }
 
 .quote-wrap::after{
-    content: url(../images/double-quotes-after.svg);
+    content: "";
+    width: 3.6rem;
+    height: 3.2rem;
+    background-image: url(../images/double-quotes-after.svg);
     margin-left: 2rem;
 }
 
@@ -118,8 +124,8 @@ form {
     gap: 2rem;
 }
 
-.input1,
-.input2 {
+form .input1,
+form .input2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,6 +140,7 @@ form input {
     border: none;
     border-radius: 0.8rem;
     font-size: 2.4rem;
+    font-weight: normal;
     
 }
 
@@ -144,7 +151,7 @@ form input::placeholder {
 
 form button {
     width: 56.7rem;
-    margin-top: 12rem;
+    margin-top: 10rem;
     background-color: #FCEE21;
     padding: 2rem 5rem;
     color: #5B2386;
@@ -216,7 +223,7 @@ form button {
     width: 50.8rem;
 }
 
-.overlay p {
+.overlay-wrap p {
     font-family: 'OTEnjoystoriesBA', cursive;
     color: #5B2386;
     font-size: 3.6rem;
@@ -224,11 +231,11 @@ form button {
     text-align: center;
 }
 
-.overlay span {
+.overlay-wrap span {
     font-size: 9.6rem;
 }
 
-.overlay a {
+.overlay-wrap a {
     background-color: #FCEE21;
     padding: 2rem 5rem;
     border-radius: 1.2rem;
@@ -256,4 +263,150 @@ footer p {
     font-size: 1.2rem;
     font-weight: 400;
     text-align: center;
+    line-height: 1.5rem;
+}
+
+@media (max-width: 360px) {
+    .wrap {
+        width: 36rem;
+        margin: 4rem auto 4.8rem;
+    }
+
+    /* header */
+    header {
+        gap: 3.2rem;
+        margin-bottom: 3.2rem;
+    }
+
+    header img {
+        width: 27.8rem;
+        height: 13rem;
+    }
+
+    header p {
+        font-size: 2.2rem;
+    }
+    
+    /* main */
+
+    /* section-first */
+    .first {
+        margin-bottom: 6rem;
+    }
+
+    .quote-wrap::before{
+        width: 2rem;
+        height: 1.8rem;
+        margin-right: 0;
+    }
+
+    .quote-wrap::after{
+        width: 2rem;
+        height: 1.8rem;
+        margin-left: 0;
+    }
+
+    .quote-wrap p {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
+
+    .quote-wrap dfn {
+        font-size: 1.4rem;
+    }
+
+    /* section second */
+    .second {
+        margin-bottom: 6.8rem;
+        font-size: 1.4rem;
+    }
+
+    form .input1,
+    form .input2 {
+        gap: 0.8rem;
+    }
+
+    form input {
+        width: 15.6rem;
+        padding: 1.2rem 4rem;
+        font-size: 1.4rem;
+    }
+
+    form button {
+        width: 24rem;
+        margin-top: 8rem;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    /* section third */
+    .third {
+        margin-bottom: 6rem;
+    }
+
+    .third p {
+        font-size: 1.2rem;
+        margin-bottom: 5.2rem;
+        line-height: 4.5rem;
+    }
+
+    .third span {
+        font-size: 2.4rem;
+    }
+
+    .btn-group {
+        gap: 0.8rem;
+    }
+
+    .btn-group button {
+        padding: 1.6rem 2.4rem;
+        font-size: 1.4rem;
+    }
+
+    /* overlay */
+
+    .overlay {
+        width: 33rem;
+        height: 50rem;
+        padding: 4rem 4.2rem;
+    }
+
+    .overlay-wrap {
+        width: 24rem;
+    }
+
+    .overlay-wrap p {
+        font-size: 3.6rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .overlay-wrap span {
+        font-size: 6.4rem;
+    }
+
+    .overlay-wrap img {
+        width: 24rem;
+        height: 18.8rem;
+    }
+
+    .overlay-wrap a {
+        font-size: 1.4rem;
+        margin-top: 2.4rem;
+        white-space: normal;
+        margin-bottom: 4.2rem;
+    }
+
+
+    /* footer */
+    footer {
+        gap: 1.2rem;
+    }
+
+    footer img {
+        width: 12.5rem;
+        height: 2.8rem;
+    }
+    footer p {
+        font-size: 0.9rem;
+    }
 }
