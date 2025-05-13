@@ -297,12 +297,14 @@ footer p {
     .quote-wrap::before{
         width: 2rem;
         height: 1.8rem;
+        background-size: cover;
         margin-right: 0;
     }
 
     .quote-wrap::after{
         width: 2rem;
         height: 1.8rem;
+        background-size: cover;
         margin-left: 0;
     }
 
