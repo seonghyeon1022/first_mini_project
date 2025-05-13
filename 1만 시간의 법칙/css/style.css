@@ -238,6 +238,7 @@ form button {
     color: #5B2386;
     margin-top: 6rem;
     text-align: center;
+    white-space: nowrap;
 }
 
 /* footer */
