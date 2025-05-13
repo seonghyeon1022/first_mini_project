@@ -18,31 +18,37 @@
         </header>
         
         <main>
-            <section class="section first">
+            <section class="first">
                 <h2 class="sr-only">1만 시간의 법칙 정의</h2>
-                <p>
-                    <dfn>1만 시간의 법칙</dfn>은<br>
-                    어떤 분야의 전문가가 되기 위해서는<br>
-                    최소한 1만 시간의 훈련이 필요하다는 법칙이다.
-                </p>
+                <div class="quote-wrap">
+                    <p>
+                        <dfn>1만 시간의 법칙</dfn>은<br>
+                        어떤 분야의 전문가가 되기 위해서는<br>
+                        최소한 1만 시간의 훈련이 필요하다는 법칙이다.
+                    </p>
+                </div>
             </section>
             
-            <section class="section second">
+            <section class="second">
                 <h2 class="sr-only">나의 훈련 목표 입력</h2>
                 <form action="">
-                    <label for="">나는</label>
-                    <input type="text" placeholder="예)프로그래밍">
-                    <p>전문가가 될 것이다.</p>
+                    <div class="input1">
+                        <label for="category">나는</label>
+                        <input type="text" id="category" placeholder="예)프로그래밍">
+                        <p>전문가가 될 것이다.</p>
+                    </div>
                     
-                    <label for="">그래서 앞으로 매일 하루에</label>
-                    <input type="text" placeholder="예)5시간">
-                    <p>시간씩 훈련할 것이다.</p>
+                    <div class="input2">
+                        <label for="time">그래서 앞으로 매일 하루에</label>
+                        <input type="text" id="time" placeholder="예)5시간">
+                        <p>시간씩 훈련할 것이다.</p>
+                    </div>
                     
                     <button>나는 며칠 동안 훈련을 해야 1만 시간이 될까?</button>
                 </form>
             </section>
             
-            <section class="section third">
+            <section class="third">
                 <h2 class="sr-only">전문가가 되기 위해 필요한 훈련 시간</h2>
                 <p>
                     당신은 <span>프로그래밍</span> 전문가가 되기 위해서<br>
@@ -50,19 +56,21 @@
                 </p>
                 
                 <div class="btn-group">
-                    <button>훈련하러 가기 GO! GO!</button>
-                    <button>공유하기</button>
+                    <button class="training-btn">훈련하러 가기 GO! GO!</button>
+                    <button class="share-btn">공유하기</button>
                 </div>
             </section>
             
-            <section>
-                <h2 class="sr-only">훈련하러 가기 오버레이 모달창</h2>
-                <p>
-                    <span>화이팅!!&#10084;&#10084;&#10084;</span><br>
-                    당신의 꿈을 응원합니다!
-                </p>
-                <img src="./images/licat.svg" alt="위니브 캐릭터 라이캣 이미지">
-                <button>종료하고 진짜 훈련하러 가기 GO!GO!</button>
+            <section class="overlay">
+                <div class="overlay-wrap">
+                    <h2 class="sr-only">훈련하러 가기 오버레이 모달창</h2>
+                    <p>
+                        <span>화이팅!!&#10084;&#10084;&#10084;</span><br>
+                        당신의 꿈을 응원합니다!
+                    </p>
+                    <img src="./images/licat.svg" alt="위니브 캐릭터 라이캣 이미지">
+                    <a href="#">종료하고 진짜 훈련하러 가기 GO!GO!</a>
+                </div>
             </section>
         </main>
         
