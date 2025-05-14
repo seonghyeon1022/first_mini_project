@@ -194,6 +194,7 @@ form button::after {
     font-size: 7.2rem;
     font-weight: bold;
     vertical-align: middle;
+    margin: 0 1.2rem;
 }
 
 .btn-group {
