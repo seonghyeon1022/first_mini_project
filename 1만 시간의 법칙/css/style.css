@@ -129,6 +129,7 @@ form .input2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -141,7 +142,6 @@ form input {
     border-radius: 0.8rem;
     font-size: 2.4rem;
     font-weight: normal;
-    
 }
 
 form input::placeholder {
@@ -224,7 +224,6 @@ form button::after {
 
 /* overlay */
 .overlay {
-    display: none;
     width: 80rem;
     border-radius: 2rem;
     padding: 8rem 14.6rem;
@@ -248,6 +247,10 @@ form button::after {
 
 .overlay-wrap span {
     font-size: 9.6rem;
+}
+
+.overlay-wrap span::after {
+    content: "♥♥♥";
 }
 
 .overlay-wrap a {
@@ -341,7 +344,7 @@ footer p {
 
     form .input1,
     form .input2 {
-        gap: 0.8rem;
+        gap: 1.2rem;
     }
 
     form input {
@@ -397,7 +400,6 @@ footer p {
 
     .overlay {
         width: 33rem;
-        height: 50rem;
         padding: 4rem 4.2rem;
     }
 
@@ -414,6 +416,10 @@ footer p {
         font-size: 6.4rem;
     }
 
+    .overlay-wrap span::after {
+        content: "";
+    }
+
     .overlay-wrap img {
         width: 24rem;
         height: 18.8rem;
@@ -423,9 +429,7 @@ footer p {
         font-size: 1.4rem;
         margin-top: 2.4rem;
         white-space: normal;
-        margin-bottom: 4.2rem;
     }
-
 
     /* footer */
     footer {
