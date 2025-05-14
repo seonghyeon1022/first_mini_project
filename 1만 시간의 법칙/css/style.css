@@ -74,8 +74,8 @@ main {
     align-items: center;
 }
 
-/* section first */
-.first {
+/* section definition */
+.definition {
     margin-bottom: 10rem;
 }
 
@@ -111,8 +111,8 @@ main {
     font-weight: bold;
 }
 
-/* section second */
-.second {
+/* section goal */
+.goal {
     margin-bottom: 14.2rem;
     font-size: 2.4rem;
 }
@@ -124,8 +124,8 @@ form {
     gap: 2rem;
 }
 
-form .input1,
-form .input2 {
+form .input-category,
+form .input-time {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,14 +175,14 @@ form button::after {
     margin-left: 0.7rem;
 }
 
-/* section third */
-.third {
+/* section goal-info */
+.goal-info {
     display: flex;
     flex-direction: column;
     margin-bottom: 12rem;
 }
 
-.third p {
+.goal-info p {
     font-size: 2.4rem;
     font-weight: normal;
     text-align: center;
@@ -190,7 +190,7 @@ form button::after {
     line-height: 9rem;
 }
 
-.third span {
+.goal-info span {
     font-size: 7.2rem;
     font-weight: bold;
     vertical-align: middle;
@@ -308,8 +308,8 @@ footer p {
     
     /* main */
 
-    /* section-first */
-    .first {
+    /* section definition */
+    .definition {
         margin-bottom: 6rem;
     }
 
@@ -336,14 +336,14 @@ footer p {
         font-size: 1.4rem;
     }
 
-    /* section second */
-    .second {
+    /* section goal */
+    .goal {
         margin-bottom: 6.8rem;
         font-size: 1.4rem;
     }
 
-    form .input1,
-    form .input2 {
+    form .input-category,
+    form .input-time {
         gap: 1.2rem;
     }
 
@@ -372,18 +372,18 @@ footer p {
         margin-left: 0.4rem;
     }
 
-    /* section third */
-    .third {
+    /* section goal-info */
+    .goal-info {
         margin-bottom: 6rem;
     }
 
-    .third p {
+    .goal-info p {
         font-size: 1.2rem;
         margin-bottom: 5.2rem;
         line-height: 4.5rem;
     }
 
-    .third span {
+    .goal-info span {
         font-size: 2.4rem;
     }
 
