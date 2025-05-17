@@ -39,6 +39,7 @@ body {
 
 button {
     font-family: 'Gmarket Sans';
+    cursor: pointer;
 }
 
 .wrap {
