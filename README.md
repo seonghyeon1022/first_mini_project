@@ -29,3 +29,5 @@
 ## 5. 향후 개선 사항
 - JavaScript를 통한 이벤트 추가 (모달창)
 
+## 6. 웹 링크
+[페이지 링크](https://seonghyeon1022.github.io/first_mini_project/)
